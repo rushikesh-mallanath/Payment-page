@@ -1,0 +1,8 @@
+.btntop{
+    color: blue;
+    background-color:white;
+    box-shadow: 5px 5px 10px 2px rgba(224, 215, 215, 0.8);
+    border-style:hidden;
+    border-radius: 1rem;
+    margin: 0.4rem;
+}
