@@ -13,8 +13,10 @@ body{
 
 .titletext{
     color: #23374D;
-    font-size: 90px;
-    font-weight:900;
+    font-size: 60px;
+    font-weight:700;
+    /* display: flex; */
+    margin-left: 350px;
 }
 
 .paycon{
@@ -25,13 +27,16 @@ body{
     padding-top: 1rem;
     height: 10cm;
     width: 9cm;
-    background-color: #ECECEC;
     border-radius: 2.5rem;
+    background-color: #ECECEC;
+    /* display: flex; */
+    /* position: absolute; */
+    margin-top: 0px;
+
 }
 
 .pbtext{
     margin: 2.5rem;
-    
     font-size: large;
     color: #23374D;
 }
@@ -53,29 +58,32 @@ body{
 
 .timg{
 
-float: right;
-width: 500px;
-position: relative;
-}
-
-.ftr{
-    
+/* float: right; */
+/* width: 500px; */
+/* position: absolute; */
+/* display: flex; */
+margin-left: 100px;
+/* background-color: red; */
 }
 
 .footr{
    
-   list-style-type: none;
-   float: left;
+   /* list-style-type: none; */
+   /* display: inline-block; */
+
+   /* float: left; */
 }
 
 .fopt{
     text-decoration: none;
+    font-size: large;
 }
 
 .endlink{
     list-style-type: none;
     display: inline;
     padding: 0.4rem;
+    text-align: right;
 
 }
 
@@ -83,5 +91,66 @@ position: relative;
     height: 25px;
     width: 25px;
     padding: 0.1rem;
+
+}
+.logo{
+    margin-left: 60px;
+    /* position: fixed; */
+}
+
+.logo1{
+    margin-left: 200px;
+}
+
+.maincon{
+    /* display: flex; */
+    /* background-color: yellow; */
+    /* position:relative; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.combine{
+    /* background-color: #0d6efd; */
+    /* flex-direction: column; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.navB{
+    /* float: right; */
+    /* text-align: center; */
+    height: 50px;
+    width: 100%;
+    /* position:absolute; */
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    /* margin-left: 200px; */
+    /* background-color: violet; */
+
+}
+
+.ftr{
+    /* float: right; */
+    /* text-align: center; */
+    height: 50px;
+    width: 100%;
+    /* position:absolute; */
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    /* margin-left: 500px; */
+    /* background-color: chartreuse; */
+}
+
+.collapse_navbar-collapse{
+    margin-left: 275px;
+    padding: 0.4rem;
 
 }
