@@ -1,8 +1,87 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .btntop{
-    color: blue;
+    color: #0d6efd;
     background-color:white;
     box-shadow: 5px 5px 10px 2px rgba(224, 215, 215, 0.8);
     border-style:hidden;
     border-radius: 1rem;
     margin: 0.4rem;
+}
+
+.titletext{
+    color: #23374D;
+    font-size: 90px;
+    font-weight:900;
+}
+
+.paycon{
+     position:absolute;
+}
+
+.pbox{
+    padding-top: 1rem;
+    height: 10cm;
+    width: 9cm;
+    background-color: #ECECEC;
+    border-radius: 2.5rem;
+}
+
+.pbtext{
+    margin: 2.5rem;
+    
+    font-size: large;
+    color: #23374D;
+}
+
+.paypal{
+    padding: 1rem;
+}
+
+.mianimg{
+    height: 35px;
+    width: 110px;
+}
+
+.btn{
+    padding: 0.4rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+.timg{
+
+float: right;
+width: 500px;
+position: relative;
+}
+
+.ftr{
+    
+}
+
+.footr{
+   
+   list-style-type: none;
+   float: left;
+}
+
+.fopt{
+    text-decoration: none;
+}
+
+.endlink{
+    list-style-type: none;
+    display: inline;
+    padding: 0.4rem;
+
+}
+
+.fimg{
+    height: 25px;
+    width: 25px;
+    padding: 0.1rem;
+
 }
